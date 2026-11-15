@@ -35,7 +35,7 @@ pipeline {
         emailext(
             subject: "SUCCESS: ${env.JOB_NAME} - Build #${env.BUILD_NUMBER}",
             body: "Your Jenkins build was successful!",
-            to: "your-email@gmail.com"
+            to: "asmithabhavya@gmail.com"
         )
     }
 
